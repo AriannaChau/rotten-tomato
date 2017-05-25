@@ -3,20 +3,28 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Corben:400,700|Josefin+Slab" rel="stylesheet">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Rotten Tomato Chart</title>
   </head>
   <body>
     <center>
-    <h1>Rotten Tomatoes Chart</h1>
+    <div id="header">
+      <div id="header1">
+          <h1>Rotten Tomatoes Chart</h1>
+      </div>
+      <div id="headerImg">
+        <img src="img/tomato.png">
+      </div>
+    </div>
     <div class="table-div">
       <table id="myTable">
         <thead>
           <tr>
             <th>Title</th>
-            <th>Year Release</th>
-            <th>Tomatometer Score</th>
+            <th>Year Released</th>
+            <th>Score</th>
           </tr>
         </thead>
         <tbody id="results">

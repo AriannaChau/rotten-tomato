@@ -8,23 +8,102 @@
 
 
 body {
-  font-family: Arial;
+  font-family: Josefin Slab;
 }
  h1 {
-   text-align: center;
+   float: left;
+   margin-left: 30px;
+   font-family: Corben;
+   font-size: 40px;
+   width: 400px;
+   margin: 0;
+ }
+
+ #header {
+   width: 60%;
+   border: 1px solid red;
+   height: 35%;
+ }
+
+ #headerImg img {
+   width: 200px;
+   padding: 10px;
+
  }
 
  /*table*/
  table {
    border-collapse: collapse;
+   margin-top: 5%;
  }
 
  tr, td, th {
    border: 1px solid black;
    padding: 10px;
+   font-size: 20px;
+ }
+
+ thead, th {
+   border: 1px solid #99040c;
+   padding: 10px;
+   background-color: #fa4020;
+   color: white;
+   text-shadow: 2px 2px black;
+   font-size: 25px;
+   padding-left: 30px;
+   padding-right: 30px;
+ }
+
+ th:first-child {
+   padding-left: 100px;
+   padding-right: 100px;
  }
 
  /*form*/
  .form-div {
    margin-top: 5%;
  }
+
+ label {
+   font-size: 20px;
+   padding-left: 10px;
+ }
+
+ #userInputName {
+   width: 200px;
+   font-size: 20px;
+   font-family: Josefin Slab;
+ }
+
+ #userInputYear {
+   width: 80px;
+   font-size: 20px;
+   font-family: Josefin Slab;
+ }
+
+ #userInputScore {
+   width: 80px;
+   font-size: 20px;
+   font-family: Josefin Slab;
+ }
+
+ button {
+   padding: 20px;
+   margin: 2%;
+   width: 150px;
+   font-family: Josefin Slab;
+   font-size: 20px;
+   background-color: white;
+   border: 1px solid #99040c;
+ }
+
+button:hover {
+  background-color: #fa4020;
+  -o-transition:.9s;
+  -ms-transition:.9s;
+  -moz-transition:.9s;
+  -webkit-transition:.9s;
+  transition:.9s;
+  border: 1px solid #99040c;
+  color: white;
+}
